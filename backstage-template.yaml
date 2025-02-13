@@ -5,7 +5,7 @@ metadata:
   title: Crossplane Kubernetes
   description: Create and Manage Kubernetes Clusters
 spec:
-  owner: vfarcic/crossplane-kubernetes
+  owner: shnetflix/crossplane-kubernetes
   type: service
   parameters:
   - title: Service Selector
@@ -26,7 +26,7 @@ spec:
         type: string
       repositoryUser:
         type: string
-        default: vfarcic
+        default: shnetflix
     required:
     - name
     - provider
@@ -83,7 +83,7 @@ spec:
           repoURL:
             title: Argo CD repoURL
             type: string
-            default: https://github.com/vfarcic/SOMETHING
+            default: https://github.com/shnetflix/SOMETHING
           destinationNamespace:
             title: Argo CD destinationNamespace
             type: string
